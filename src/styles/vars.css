@@ -1,0 +1,154 @@
+/* Hide the focus outline on the virtualized lists */
+
+:root {
+  /* --------------------- */
+  /* Color */
+  /* --------------------- */
+  --brandcolor-red: #EE3124;
+  --brandcolor-black: #272425;
+  --brandcolor-dark: #002862;
+  --brandcolor-very-dark: #001433;
+
+  --color-light: #f1f1f1;
+  --color-medium: #6484c7;
+  --color-base: #4966a7;
+  --color-dark: #2a4379;
+  --color-darker: #7c5423;
+  --primary-color: var(--brandcolor);
+  --secondary-color: var(--color-light);
+  --preview-background-color: #dceaf5;
+  --accent-color: rgb(80, 119, 93);
+  --accent-color-dark: rgb(34, 45, 35);
+
+  --black: #444;
+  --white: #fff;
+
+
+  /* --------------------- */
+  /* App settings */
+  /* --------------------- */
+  --sidebar-width: 200px;
+  --sidebar-width-plus: 250px;
+
+  --header-height: 45px;
+
+  /* --------------------- */
+  /* Buttons               */
+  /* --------------------- */
+  /* Note: colors are background colors */
+  --button-color: var(--semantic-primary);
+  --button-color-hover: #1678c2;
+  --button-color-pressed: #1a69a4;
+  --button-color-disabled: #9ac4e7;
+
+  /* --------------------- */
+  /* Media sizes*/
+  /* --------------------- */
+  --mobile-only: 599px;
+  /* @media screen and (max-width: 599px){
+    some-content
+  } */
+
+  --tablet-up: 600px;
+  /* @media screen and (min-width: 600px){
+    some-content
+  } */
+
+  --desktop-up: 900px;
+  /* @media screen and (min-width: 900px) {
+    some-content
+  } */
+
+  --desktop-big-up: 1800px;
+  /* @media screen and (min-width: 1800px){
+    some-content
+  } */
+
+  /* --------------------- */
+  /* Typograpgy */
+  /* --------------------- */
+
+  /* Body */
+  /* font-stack matches semantic */
+  --font-stack: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  --font-size: 0.85rem;
+  --body-font-size: 1rem;
+
+  --font-style: normal;
+  --font-variant: normal;
+  --font-weight: normal;
+  --font-color: var(--black);
+  --line-height: 1.6;
+
+  /* Headings */
+  --heading-font-color: var(--color-black);
+  --heading-font-weight: 400;
+  --heading-font-family: var(--font-stack);
+  --heading-line-height: 1.4;
+
+  /* Mobile heading font size */
+  --h1-mobile: 1.75rem;
+  --h2-mobile: 1.5rem;
+  --h3-mobile: 1.25rem;
+  --h4-mobile: 1rem;
+  --h5-mobile: 0.85rem;
+
+  /* Heading font size */
+  --h1: 2.25rem;
+  --h2: 2rem;
+  --h3: 1.75rem;
+  --h4: 1.5rem;
+  --h5: 1.25rem;
+
+  /* --------------------- */
+  /* Padding */
+  /* --------------------- */
+  --padding: 1rem;
+  --margin: 1.5rem;
+  --content-padding: 60px 0;
+  --content-padding-mobile: 30px 0;
+
+  /* Links */
+  --link-fg: var(--color-dark);
+  --link-bg: var(--color-background);
+  --link-hover: var(--color-base);
+
+  /* --------------------- */
+  /* Borders */
+  /* --------------------- */
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: #dedede;
+  --border-radius: 4px;
+  --borders: var(--border-width) var(--border-style) var(--border-color);
+
+  /* --------------------- */
+  /* Tables */
+  /* --------------------- */
+  --table-border: var(--border-color);
+  --table-border-color: var(--border-color);
+  --table-stripes: #f8f8f8;
+  --table-caption: #ababab;
+
+  /* --------------------- */
+  /* Code */
+  /* --------------------- */
+  --code-color: var(--font-color);
+  --code-color-bg: rgb(235, 235, 235);
+  --code-size: 14px;
+  --code-family: Menlo, monospace;
+  --code-background: transparent;
+  --code-borders: var(--borders);
+
+  /* --------------------- */
+  /* Forms / Inputs */
+  /* --------------------- */
+  --input-background: var(--white);
+  --placeholder: var(--color-dark);
+  --form-border: 1px solid rgb(139, 132, 87);
+  --form-border-hover: 1px solid #b9b9b9;
+}
+
+.brandcolor {
+  color: var(--brand-color);
+}

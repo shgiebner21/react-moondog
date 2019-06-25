@@ -1,0 +1,24 @@
+/* --------------------- */
+/* Base styles */
+/* --------------------- */
+html {
+  height: 100%;
+  font-style: var(--font-style);
+  font-variant: var(--font-variant);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  font-family: var(--font-stack);
+}
+
+body {
+  height: 100%;
+  color: var(--font-color);
+  background-color: var(--white);
+  font-family: var(--font-stack);
+}
+
+/* for react root element */
+#root {
+  height: 100%;
+}
